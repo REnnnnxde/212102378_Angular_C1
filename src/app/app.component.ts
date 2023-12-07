@@ -11,4 +11,6 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = '212102378_Angular';
+  nim = '212102378';
+  nama = 'Rendy';
 }
