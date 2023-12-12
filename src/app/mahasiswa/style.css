@@ -1,0 +1,26 @@
+
+/* Tambahkan CSS untuk mengatur lebar tabel */
+.table-responsive {
+  overflow-x: auto;
+  mb : 10px
+  width : auto;
+}
+
+#table1 {
+  width: 100%;
+  white-space: nowrap; /* Mencegah teks terpotong */
+}
+
+#table1 th,
+#table1 td {
+  text-align: center; /* Menengahkan teks dalam sel */
+}
+.dataTables_length {
+  float: left; /* Menempatkan bagian "Show entries" ke sisi kiri */
+  margin-bottom: 10px; /* Menambahkan sedikit margin bawah agar tidak terlalu rapat */
+}
+
+.dataTables_filter {
+  float: right; /* Menempatkan bagian pencarian ke sisi kanan */
+  margin-bottom: 10px; /* Menambahkan sedikit margin bawah agar tidak terlalu rapat */
+}
