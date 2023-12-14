@@ -10,6 +10,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { Dashboard2Component } from './dashboard2/dashboard2.component';
 import { Dashboard3Component } from './dashboard3/dashboard3.component';
 import { MahasiswaComponent } from './mahasiswa/mahasiswa.component';
+import { CuacaComponent } from './cuaca/cuaca.component';
 
 export const routes: Routes = [
 
@@ -18,12 +19,11 @@ export const routes: Routes = [
   { path: 'manifest.webmanifest', redirectTo: '/', pathMatch: 'full' },
 
   { path: 'admin', component: AdminComponent},
-
   { path: 'dashboard', component: DashboardComponent },
   { path: 'dashboard2', component: Dashboard2Component },
   { path: 'dashboard3', component: Dashboard3Component },
-
   { path: 'mahasiswa', component: MahasiswaComponent},
+  { path: 'cuaca', component:CuacaComponent},
 ];
 @NgModule({
 

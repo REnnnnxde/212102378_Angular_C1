@@ -5,7 +5,11 @@ import { FooterComponent } from '../footer/footer.component';
 @Component({
   selector: 'app-dashboard',
   standalone: true,
-  imports: [ HeaderComponent, SidebarComponent, FooterComponent],
+  imports: [
+    HeaderComponent,
+    SidebarComponent,
+    FooterComponent
+  ],
   templateUrl: './dashboard.component.html',
   styleUrl: './dashboard.component.css'
 })

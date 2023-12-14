@@ -5,7 +5,12 @@ import { SidebarComponent } from '../sidebar/sidebar.component';
 @Component({
   selector: 'app-dashboard2',
   standalone: true,
-  imports: [SidebarComponent, HeaderComponent, FooterComponent],
+  imports: [
+    SidebarComponent,
+    HeaderComponent,
+    FooterComponent
+  ],
+
   templateUrl: './dashboard2.component.html',
   styleUrl: './dashboard2.component.css'
 })

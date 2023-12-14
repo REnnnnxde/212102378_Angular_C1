@@ -12,7 +12,6 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
   imports: [
 
     CommonModule,
-
     RouterLink,
     RouterLinkActive,
 

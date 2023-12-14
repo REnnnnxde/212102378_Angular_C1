@@ -6,7 +6,11 @@ import { SidebarComponent } from '../sidebar/sidebar.component';
 @Component({
   selector: 'app-dashboard3',
   standalone: true,
-  imports: [FooterComponent, HeaderComponent, SidebarComponent ],
+  imports: [
+    FooterComponent,
+    HeaderComponent,
+    SidebarComponent ],
+
   templateUrl: './dashboard3.component.html',
   styleUrl: './dashboard3.component.css'
 })
